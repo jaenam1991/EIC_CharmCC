@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test
+# Build directory: /Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testRandom.sh "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testRandom.sh")
+set_tests_properties(testRandom.sh PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;61;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;37;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testRandDists.sh "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testRandDists.sh")
+set_tests_properties(testRandDists.sh PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;61;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;37;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testSaveEngineStatus "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testSaveEngineStatus")
+set_tests_properties(testSaveEngineStatus PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testInstanceRestore "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testInstanceRestore")
+set_tests_properties(testInstanceRestore PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testSaveSharedEngines "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testSaveSharedEngines")
+set_tests_properties(testSaveSharedEngines PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testStaticStreamSave "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testStaticStreamSave")
+set_tests_properties(testStaticStreamSave PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testAnonymousEngineRestore "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testAnonymousEngineRestore")
+set_tests_properties(testAnonymousEngineRestore PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testVectorSave "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testVectorSave")
+set_tests_properties(testVectorSave PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testBug58950 "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testBug58950")
+set_tests_properties(testBug58950 PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testBug73093 "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testBug73093")
+set_tests_properties(testBug73093 PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testCLHEP155 "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testCLHEP155")
+set_tests_properties(testCLHEP155 PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testEngineCopy "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testEngineCopy")
+set_tests_properties(testEngineCopy PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testDistCopy "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testDistCopy")
+set_tests_properties(testDistCopy PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testZiggurat "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testZiggurat")
+set_tests_properties(testZiggurat PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testRanecuSequence "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testRanecuSequence")
+set_tests_properties(testRanecuSequence PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
+add_test(testThreaded "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/Random/test/testThreaded")
+set_tests_properties(testThreaded PROPERTIES  _BACKTRACE_TRIPLES "/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/cmake/Modules/ClhepBuildTest.cmake;47;add_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;41;clhep_test;/Users/jaenam/Desktop/Work/EIC/runall/2.4.1.3/CLHEP/Random/test/CMakeLists.txt;0;")
