@@ -1,5 +1,5 @@
 # EIC_CharmCC
-Charm production in CCDIS at EIC using Delphes + Pythia
+Charm production in CCDIS at EIC using Delphes + Pythia. Based on delphes_EIC by miguelignacio (https://github.com/miguelignacio/delphes_EIC).
 
 	###########################################################################
 	Prerequisites
